@@ -1,5 +1,10 @@
-body {
+body ,html{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../img/matrix.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
 }
 
 .jumbotron {
@@ -13,3 +18,4 @@ body {
   color: #683838;
   margin: 20%;
 }
+

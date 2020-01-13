@@ -51,14 +51,12 @@ console.log(reverseJumble);
 // front-end logic:
 
 $(document).ready(function() {
+   $("#well1").click(function() {
+    $("#sentence").text(sentenceInput).show();
+    $("#result").hide();
+  });
   $("#well2").click(function() {
-    $("#result").text(reverseJumble);
-    $("#original").hide();
-    $("#cipher").show();
-  })
-  $("#well1").click(function() {
-    $("#sentence").text(sentenceInput);
-    $("#original").show();
-    $("#cipher").hide();
-  })
-})
+    $("#result").text(reverseJumble).show();
+    $("#sentence").hide();
+  });
+});
