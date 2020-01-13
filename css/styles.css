@@ -1,0 +1,15 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: linear-gradient(to top left, #2df704, #0b3500);
+  margin: 10px 33%;
+}
+
+.well {
+  background-image: linear-gradient(to bottom right, #2df704, #0b3500);
+  color: #683838;
+  margin: 20%;
+}

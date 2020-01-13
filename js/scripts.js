@@ -1,3 +1,5 @@
+// Back-end logic:
+
 var sentenceInput = prompt("Please Enter a Sentence.");
 
 console.log(sentenceInput);
@@ -45,3 +47,9 @@ var reverseArray = superJumble.split("").reverse();
 console.log(reverseArray);
 var reverseJumble = reverseArray.join("");
 console.log(reverseJumble);
+
+// front-end logic:
+
+$(document).ready(function() {
+  $("#result").text(reverseJumble);
+})
