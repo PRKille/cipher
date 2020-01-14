@@ -43,10 +43,7 @@ randomLetter(sentenceInput, jumble);
 
 console.log(superJumble);
 
-var reverseArray = superJumble.split("").reverse();
-console.log(reverseArray);
-var reverseJumble = reverseArray.join("");
-console.log(reverseJumble);
+var reverseJumble = superJumble.split("").reverse().join("");
 
 // front-end logic:
 
